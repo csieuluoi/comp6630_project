@@ -1,0 +1,81 @@
+{
+    "GABAergic neuron": {
+        "precision": 0.9629629629629629,
+        "recall": 0.9837837837837838,
+        "f1-score": 0.9732620320855615,
+        "support": 1110.0
+    },
+    "astrocyte": {
+        "precision": 0.9844384303112313,
+        "recall": 0.9935131444178901,
+        "f1-score": 0.9889549702633815,
+        "support": 5858.0
+    },
+    "endothelial cell": {
+        "precision": 0.9972144846796658,
+        "recall": 0.9916897506925207,
+        "f1-score": 0.9944444444444445,
+        "support": 722.0
+    },
+    "ependymal cell": {
+        "precision": 0.8311688311688312,
+        "recall": 0.49230769230769234,
+        "f1-score": 0.6183574879227053,
+        "support": 130.0
+    },
+    "glutamatergic neuron": {
+        "precision": 0.9546247818499127,
+        "recall": 0.8981937602627258,
+        "f1-score": 0.9255499153976311,
+        "support": 609.0
+    },
+    "microglial cell": {
+        "precision": 0.9797377830750894,
+        "recall": 0.8920238741182854,
+        "f1-score": 0.933825617722238,
+        "support": 1843.0
+    },
+    "oligodendrocyte": {
+        "precision": 0.9980233602875113,
+        "recall": 0.9994601403635055,
+        "f1-score": 0.9987412335910807,
+        "support": 5557.0
+    },
+    "oligodendrocyte precursor cell": {
+        "precision": 0.9927770859277708,
+        "recall": 0.998496993987976,
+        "f1-score": 0.9956288247783189,
+        "support": 3992.0
+    },
+    "pericyte": {
+        "precision": 0.99800796812749,
+        "recall": 0.9881656804733728,
+        "f1-score": 0.9930624380574826,
+        "support": 507.0
+    },
+    "perivascular cell": {
+        "precision": 0.5097560975609756,
+        "recall": 0.8565573770491803,
+        "f1-score": 0.6391437308868502,
+        "support": 244.0
+    },
+    "vascular leptomeningeal cell": {
+        "precision": 1.0,
+        "recall": 0.9631901840490797,
+        "f1-score": 0.98125,
+        "support": 326.0
+    },
+    "accuracy": 0.9784189874629151,
+    "macro avg": {
+        "precision": 0.9280647078137675,
+        "recall": 0.9143074892278192,
+        "f1-score": 0.9129291541045176,
+        "support": 20898.0
+    },
+    "weighted avg": {
+        "precision": 0.9817372817390952,
+        "recall": 0.9784189874629151,
+        "f1-score": 0.9790684025116357,
+        "support": 20898.0
+    }
+}
