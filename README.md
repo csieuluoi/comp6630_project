@@ -20,4 +20,4 @@ python train.py --gpu [GPU_ID]
 
 
 #### Umap visualization of the features extracted by the trained model, colored by groundtruth labels and predicted labels.
-![UMAP](figures/umap_test_embeddings.png)
+![UMAP](figures/umap_test_embeddings_ondata.png)
