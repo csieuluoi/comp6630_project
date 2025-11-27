@@ -27,6 +27,11 @@ python data_processing.py
 python train.py --gpu [GPU_ID]
 ```
 
+### To run hyperparameters tuning with random search 
+
+```
+python hyperparameter_tuning.py --gpu [GPU_ID] --n_trials [NUMBER OF RANDOM TRIALS]
+```
 
 #### Umap visualization of the features extracted by the trained model, colored by groundtruth labels and predicted labels.
 ![UMAP](figures/umap_test_embeddings_ondata.png)
