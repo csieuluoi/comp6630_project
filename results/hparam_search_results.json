@@ -1,0 +1,335 @@
+{
+    "best_hyperparameters": {
+        "hidden_dims": [
+            512,
+            256,
+            128
+        ],
+        "learning_rate": 0.0001,
+        "batch_size": 256,
+        "dropout": 0.3,
+        "weight_decay": 0.0001,
+        "use_class_weights": false
+    },
+    "best_val_macro_f1": 0.9289702418757919,
+    "test_macro_f1": 0.926345124396465,
+    "all_trials": [
+        {
+            "trial": 1,
+            "hparams": {
+                "hidden_dims": [
+                    128,
+                    64
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 512,
+                "dropout": 0.5,
+                "weight_decay": 0.0,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.924707354892353
+        },
+        {
+            "trial": 2,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9247636398886495
+        },
+        {
+            "trial": 3,
+            "hparams": {
+                "hidden_dims": [
+                    128,
+                    64
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.0,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.9185504318131208
+        },
+        {
+            "trial": 4,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 512,
+                "dropout": 0.5,
+                "weight_decay": 0.0,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9235956926302705
+        },
+        {
+            "trial": 5,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.5,
+                "weight_decay": 0.0001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.911522106783038
+        },
+        {
+            "trial": 6,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 256,
+                "dropout": 0.3,
+                "weight_decay": 0.0,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9253989458808267
+        },
+        {
+            "trial": 7,
+            "hparams": {
+                "hidden_dims": [
+                    128,
+                    64
+                ],
+                "learning_rate": 0.0003,
+                "batch_size": 256,
+                "dropout": 0.5,
+                "weight_decay": 0.0,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9281724472508975
+        },
+        {
+            "trial": 8,
+            "hparams": {
+                "hidden_dims": [
+                    128,
+                    64
+                ],
+                "learning_rate": 0.0003,
+                "batch_size": 128,
+                "dropout": 0.5,
+                "weight_decay": 0.001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9108852320536432
+        },
+        {
+            "trial": 9,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.001,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.9258971401964672
+        },
+        {
+            "trial": 10,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.0001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9154196169122127
+        },
+        {
+            "trial": 11,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 256,
+                "dropout": 0.3,
+                "weight_decay": 0.0001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9229231611451578
+        },
+        {
+            "trial": 12,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 256,
+                "dropout": 0.3,
+                "weight_decay": 0.001,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.9083078751360586
+        },
+        {
+            "trial": 13,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 256,
+                "dropout": 0.5,
+                "weight_decay": 0.0001,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.9234112342758407
+        },
+        {
+            "trial": 14,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.0001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9077027660911589
+        },
+        {
+            "trial": 15,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.5,
+                "weight_decay": 0.0,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9173672213735196
+        },
+        {
+            "trial": 16,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 256,
+                "dropout": 0.3,
+                "weight_decay": 0.0001,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.9289702418757919
+        },
+        {
+            "trial": 17,
+            "hparams": {
+                "hidden_dims": [
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 512,
+                "dropout": 0.5,
+                "weight_decay": 0.001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9232093088099608
+        },
+        {
+            "trial": 18,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0003,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9209260003583232
+        },
+        {
+            "trial": 19,
+            "hparams": {
+                "hidden_dims": [
+                    128,
+                    64
+                ],
+                "learning_rate": 0.001,
+                "batch_size": 128,
+                "dropout": 0.3,
+                "weight_decay": 0.001,
+                "use_class_weights": false
+            },
+            "val_macro_f1": 0.8995740643348394
+        },
+        {
+            "trial": 20,
+            "hparams": {
+                "hidden_dims": [
+                    512,
+                    256,
+                    128
+                ],
+                "learning_rate": 0.0001,
+                "batch_size": 128,
+                "dropout": 0.5,
+                "weight_decay": 0.0001,
+                "use_class_weights": true
+            },
+            "val_macro_f1": 0.9228502934252141
+        }
+    ],
+    "label_mapping": {
+        "0": "GABAergic neuron",
+        "1": "astrocyte",
+        "2": "endothelial cell",
+        "3": "ependymal cell",
+        "4": "glutamatergic neuron",
+        "5": "microglial cell",
+        "6": "oligodendrocyte",
+        "7": "oligodendrocyte precursor cell",
+        "8": "pericyte",
+        "9": "perivascular cell",
+        "10": "vascular leptomeningeal cell"
+    }
+}

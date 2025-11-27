@@ -141,6 +141,7 @@ def main():
         input_dim=input_dim,
         hidden_dims=[128, 64],
         output_dim=output_dim,
+        dropout_rate=dropout_rate
     )
 
     model = MLP(config).to(device)
