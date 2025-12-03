@@ -9,6 +9,11 @@ scanpy
 
 ```
 
+### install required python packages
+```
+pip install -r requirements.txt
+```
+
 ### To download data:
 
 ```
