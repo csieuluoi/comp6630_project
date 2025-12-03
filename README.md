@@ -9,7 +9,7 @@ scanpy
 
 ```
 
-### install required python packages
+### Install required python packages
 ```
 pip install -r requirements.txt
 ```
