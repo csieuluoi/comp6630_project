@@ -1,0 +1,20 @@
+Test set classification report using the best model
+================================================================================
+                                precision    recall  f1-score   support
+
+              GABAergic neuron     0.9450    0.9910    0.9675      1110
+                     astrocyte     0.9894    0.9908    0.9901      5858
+              endothelial cell     0.9917    0.9958    0.9938       722
+                ependymal cell     0.7963    0.6615    0.7227       130
+          glutamatergic neuron     0.9759    0.8654    0.9173       609
+               microglial cell     0.9764    0.9213    0.9481      1843
+               oligodendrocyte     0.9977    0.9993    0.9985      5557
+oligodendrocyte precursor cell     0.9930    0.9980    0.9955      3992
+                      pericyte     0.9882    0.9941    0.9912       507
+             perivascular cell     0.5783    0.8320    0.6824       244
+  vascular leptomeningeal cell     0.9968    0.9693    0.9829       326
+
+                      accuracy                         0.9807     20898
+                     macro avg     0.9299    0.9290    0.9263     20898
+                  weighted avg     0.9826    0.9807    0.9811     20898
+
