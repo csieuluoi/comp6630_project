@@ -43,8 +43,8 @@ python hyperparameter_tuning.py --gpu [GPU_ID] --n_trials [NUMBER OF RANDOM TRIA
 ```
 python evaluate_best_model.py --gpu [GPU_ID] 
 ```
-#### Umap visualization of the features extracted by the trained model, colored by groundtruth labels and predicted labels.
-![UMAP](figures/umap_test_embeddings_ondata.png)
+#### Umap visualization of the features extracted from the test set by the trained model, colored by groundtruth labels and predicted labels.
+![UMAP](figures/umap_test_embeddings_best_model.png)
 
 
     
